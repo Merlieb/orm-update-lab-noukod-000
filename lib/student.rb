@@ -5,7 +5,7 @@ class Student
   #  with DB[:conn]
 attr_accessor :name, :grade
 
-def initialize(name, grade)
+def initialize(name = name , grade = grade)
 @name
 @grade
 
